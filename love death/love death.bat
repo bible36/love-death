@@ -145,7 +145,7 @@ echo .....
 echo .....
 pause;
 echo _________________________________________________________
-echo has red eyes it has bleck ferr
+echo has red eyes it has black ferr
 echo it has shap teth
 echo it looks at you
 pause;
@@ -155,13 +155,13 @@ echo 1 = stay and  keep looking
 echo 2 = run to the kichen 
 echo 3 =brak the mear 
 set  /p input=slect 1 or 2 or 3:
-if %input%==1 goto keeplooking 
+if %input%==1 goto brakemear 
 if %input%==2 goto kichenrun
 if %input%==3 goto brakemear
 pause;
 :rubitoff
 echo __________________________________________________________
-echo you think ti was nuthing and you kepp doing what you were doing.
+echo you think it was nuthing and you keep doing what you were doing.
 echo what would like to do?
 echo 1 = go to kichen
 echo 2 = take a shit
@@ -203,28 +203,26 @@ pause;
 echo _______________________________________________________
 echo you win thank you for playing the demo (; <3
 pause;
-:takeshit
-gcho _______________________________________________________
-echo you grab a shit from the tolet and eat it.
+:look
+echo _______________________________________________________
+echo you look at the tolet ther is nuthing
 pause;
-echo you are still scared.
-echo 1= look agen 
-echo 2= rubit off
-echo 3= run to kichen
+echo __________________________________________________________
+echo 1= look right
+echo 2= go to kichen
 set /p input=slect 1 or 2 or 3:
-if %input%==1 goto lookagen
-if %input%==2 goto rubitoff
-if %input%==3 goto kichenrun
+if %input%==1 goto bathroomright
+if %input%==2 goto kichenrun
 pause;
 :bathroomleft
 echo __________________________________________________________
 echo what would like to do?
 echo 1 = go to kichen
-echo 2 = take a shit
+echo 2 = look at the tolet
 echo 3 = go to bathroom
 set  /p input=slect 1 or 2 or 3:
 if %input%==1 goto kichenrun
-if %input%==2 goto takeshit 
+if %input%==2 goto look
 if %input%==3 goto bathroom
 pause;
 
